@@ -13,6 +13,18 @@ Người xem trên TikTok Live tương tác trực tiếp qua **Thả tim (Like)
 
 ---
 
+## 📸 Ảnh Chụp Màn Hình
+
+| Màn hình OBS sạch 9:16 (`/?obs=1`) | Màn hình Live + Điều khiển nhanh (`/`) |
+| :---: | :---: |
+| <img src="docs/screenshots/obs-view.png" alt="Màn hình OBS 9:16" width="300"> | <img src="docs/screenshots/live-view.png" alt="Màn hình Live kèm bảng điều khiển" width="500"> |
+
+**Bảng điều khiển Admin & RPC (`/admin`)**
+
+<img src="docs/screenshots/admin-panel.png" alt="Bảng điều khiển Admin JSON-RPC 2.0" width="800">
+
+---
+
 ## ⚡ Kiến Trúc & Tối Ưu Hóa Hiệu Suất (Siêu Nhẹ CPU/GPU)
 
 - **Runtime**: Chạy trực tiếp trên **Bun.js** (`~0.1% CPU` khi chờ).
@@ -118,3 +130,13 @@ curl -X POST http://localhost:3000/rpc \
     }
   }'
 ```
+
+---
+
+## ⚠️ Disclaimer (Miễn Trừ Trách Nhiệm)
+
+- **Không liên kết chính thức**: Dự án này là sản phẩm độc lập, **không liên kết, không được tài trợ hay chứng thực** bởi TikTok, ByteDance hay bất kỳ bên thứ ba nào được nhắc đến. Tên và thương hiệu thuộc về chủ sở hữu tương ứng.
+- **Kết nối TikTok Live không chính thức**: Dự án dùng thư viện cộng đồng [`tiktok-live-connector`](https://github.com/zerodytrash/TikTok-Live-Connector) (không phải API chính thức). Thư viện có thể ngừng hoạt động bất cứ lúc nào và việc sử dụng có thể vi phạm Điều khoản dịch vụ của TikTok. **Bạn tự chịu trách nhiệm và rủi ro** (bao gồm hạn chế hoặc khóa tài khoản).
+- **Chỉ phục vụ giải trí**: Cá, điểm số, bảng xếp hạng và "quà tặng" trong game chỉ mang tính giải trí, **không phải trò chơi cờ bạc hay may rủi ăn tiền** và không có giá trị quy đổi thành tiền hay phần thưởng thực tế. Vui lòng tuân thủ quy định về quà tặng ảo và quảng cáo của TikTok tại quốc gia của bạn.
+- **Giọng đọc AI & tài nguyên**: Mô hình ZeroTTS, hình ảnh, âm thanh và các thư viện đi kèm thuộc bản quyền của chủ sở hữu tương ứng. Hãy kiểm tra giấy phép trước khi sử dụng cho mục đích thương mại.
+- **Không bảo hành**: Phần mềm được cung cấp **"nguyên trạng" (as is)**, không kèm bất kỳ bảo đảm nào. Tác giả không chịu trách nhiệm cho bất kỳ thiệt hại hay hậu quả nào phát sinh từ việc sử dụng dự án.
